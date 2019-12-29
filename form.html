@@ -1,0 +1,76 @@
+<html>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+
+        
+                    
+        </body>
+<!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    
+    <center><p>We are always ready to help u regarding ur love towards your Dog <br>
+        Watashitachi wa anata no inu ni taisuru anata no ai ni kanshite anata o tasukeru junbi ga dekite imasu
+    </p></center>
+    
+
+    <form action="index.html" method="POST">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Submit</button>
+    </form><br>
+    <p>Powered by:-<a href="index.html" type="_blank" class="woofy">Woof</a></p>
+
+    <div class="w3-container">
+        
+        
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Login</button>
+      
+        <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+        
+            <div class="w3-center"><br>
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+            
+              <img src="woof1.png" alt="Avatar" style="width:30%" class="w3-spin w3-circle">
+            </div>
+      
+            <form class="w3-container" action="index.html">
+              <div class="w3-section">
+                <label><b>Username</b></label>
+                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="Username" required>
+                <label><b>Password</b></label>
+                <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="Password" required>
+                <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+                <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+              </div>
+            </form>
+      
+            <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+              <span class="w3-right w3-padding w3-hide-small"><a href="form.html">Forgotpassword?</a></span>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+  </div>
+  </html>
